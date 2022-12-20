@@ -1,8 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   BackHandler,
 } from 'react-native';
-import {WebView} from 'react-native-webview';
+import { WebView } from 'react-native-webview';
+import { WebView } from 'react-native';
 
 const MyWebView= ({handleClose}) => {
   const BASE_URL = 'localhost:4000';
